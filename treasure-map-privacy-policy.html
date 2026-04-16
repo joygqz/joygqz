@@ -53,7 +53,7 @@
         </ul>
 
         <h3>3. 购买相关信息</h3>
-        <p>当你购买或恢复“Pro”权益时，本应用会通过 Apple 提供的 StoreKit 服务读取商品信息、校验购买状态并恢复历史购买记录。</p>
+        <p>本应用提供一次性买断的“Pro”权益升级（非消耗型内购项目）。当你购买或恢复“Pro”权益时，本应用会通过 Apple 提供的 StoreKit 服务读取商品信息、校验购买状态并恢复历史购买记录。</p>
         <p>本应用不会直接接触你的银行卡号、支付密码或完整支付账户信息。相关支付、结算与验证流程由 Apple 负责处理。</p>
       </section>
 
@@ -87,7 +87,7 @@
         <p>通过 iCloud / CloudKit 同步的数据由 Apple 提供基础设施支持，相关服务处理同时受 Apple 隐私政策及 Apple 服务条款约束。</p>
 
         <h3>3. 图片本地处理</h3>
-        <p>本应用中的图片处理能力（例如前景主体提取）主要在设备本地完成。根据当前版本实现，我们未发现将你选取的图片主动上传至自建服务器进行识别处理的逻辑。</p>
+        <p>本应用中的图片处理能力（例如前景主体提取）均使用 Apple 系统提供的 Vision 框架，在设备本地完成计算，不会将你的图片上传到任何服务器进行识别处理。</p>
       </section>
 
       <section>
@@ -199,8 +199,9 @@
           </ul>
 
           <h3>3. Purchase related information</h3>
-          <p>When you purchase or restore Pro benefits, the App uses StoreKit services provided by Apple to read product
-            information, verify purchase status, and restore historical purchase records.</p>
+          <p>The App offers a one-time Pro upgrade (a non-consumable in-app purchase). When you purchase or restore Pro
+            benefits, the App uses StoreKit services provided by Apple to read product information, verify purchase
+            status, and restore historical purchase records.</p>
           <p>The App does not directly access your bank card number, payment password, or complete payment account
             information. The related payment, settlement, and verification processes are handled by Apple.</p>
         </section>
@@ -239,9 +240,9 @@
             services are also subject to Apple's Privacy Policy and Apple service terms.</p>
 
           <h3>3. Local image processing</h3>
-          <p>Image processing capabilities in the App, such as foreground subject extraction, are primarily completed
-            locally on your device. Based on the current version implementation, we have not identified logic that
-            actively uploads your selected images to self-hosted servers for recognition or processing.</p>
+          <p>Image processing capabilities in the App (such as foreground subject extraction) use Apple's on-device
+            Vision framework. Your images are processed entirely on your device and are not uploaded to any server for
+            recognition or processing.</p>
         </section>
 
         <section>
